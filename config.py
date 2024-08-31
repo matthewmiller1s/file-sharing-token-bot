@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "kingurl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "1618b52b5ea6a17fe69e054fd5e5cb026f04018e")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/durov") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
